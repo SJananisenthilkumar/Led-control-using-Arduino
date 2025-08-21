@@ -1,3 +1,6 @@
+# NAME : JANANI S
+# REG NO : 212223230086
+# DATE : 21/08/2025
 # Led-control-using-Arduino
 
 ## AIM
@@ -58,9 +61,31 @@ Emergency Signaling System </br>
 Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
+<img width="820" height="618" alt="image" src="https://github.com/user-attachments/assets/30d64cb1-9548-43c4-aa15-3de6d14b78b9" />
 
 ## PROGRAM
+```
+void setup() {
+  pinMode(13,OUTPUT);
+  pinMode(3,INPUT);
+}
 
+void loop() {
+  int status = digitalRead(3);
+  if(status==HIGH)
+  {
+    digitalWrite(13,HIGH);
+    delay(1000);
+    digitalWrite(13,LOW);
+    delay(1000);
+  }
+  else
+    digitalWrite(13,LOW);
+}
+```
 ## OUTPUT
+<img width="1225" height="829" alt="Screenshot 2025-08-21 084932" src="https://github.com/user-attachments/assets/7e31d4ec-a647-4dae-a55b-c016952454c8" />
+<img width="1225" height="830" alt="Screenshot 2025-08-21 085019" src="https://github.com/user-attachments/assets/160d6d89-278b-4431-8a02-355e868d9eb9" />
 
 ## RESULT
+Thus the design and implement a system for LED control using an Arduino microcontroller and a push button has been completed successfully.

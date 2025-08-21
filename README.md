@@ -1,6 +1,6 @@
 ## NAME : JANANI S
 ## REG NO : 212223230086
-## DATE : 21/08/2025
+# EXPERIMENT NO : 01
 # Led-control-using-Arduino
 
 ## AIM

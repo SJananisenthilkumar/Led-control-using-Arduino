@@ -1,7 +1,7 @@
 ## NAME : JANANI S
 ## REG NO : 212223230086
 # EXPERIMENT NO : 01
-# Led-control-using-Arduino
+# Led control using Arduino
 
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
